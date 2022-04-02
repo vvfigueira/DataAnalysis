@@ -1,10 +1,8 @@
-#include "TH1F.h"
-#include "TCanvas.h"
+// Code for remove values below a certain threshold in a Data array
+
 #include <fstream>
 #include <iostream>
 #include <cstring>
-#include "TF1.h"
-#include "TMath.h"
 
 void Eli(char* nArq,double cut){
     std::fstream file;

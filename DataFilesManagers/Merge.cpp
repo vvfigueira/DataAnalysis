@@ -1,3 +1,5 @@
+// Code for merging various files in one. Must be used with `Merge.sh`
+
 #include <iostream>
 #include <fstream>
 

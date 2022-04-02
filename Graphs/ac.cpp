@@ -1,17 +1,15 @@
-#include "TCanvas.h"
-#include "TGraphErrors.h"
+// Code for generation of a auto-correlation/cross-correlation plot
+
 #include <fstream>
 #include <iostream>
-#include "TFile.h"
-#include "TF1.h"
-#include "TAxis.h"
-#include "TLegend.h"
+#include "TCanvas.h"
+#include "TGraphErrors.h"
 #include "TStyle.h"
-#include "TLatex.h"
-#include "TRatioPlot.h"
 #include "TMath.h"
-#include "TMathText.h"
+#include "TAxis.h"
 #include "TPad.h"
+#include "TF1.h"
+#include "TFile.h"
 
 char* name2 = "D1.tsv";
 char* name1 = "D1.tsv";
@@ -32,8 +30,6 @@ void ac(){
     std::fstream file;
     double sumsq1 = 0, sumsq2 = 0, prod = 0, autocorr = 0;
     double Nmin;
-
-    TLatex *latex = new TLatex();
 
     TCanvas *C1 = new TCanvas();
 

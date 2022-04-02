@@ -1,3 +1,5 @@
+// Code for generation of large .txt files
+
 #include <fstream>
 
 int main(){

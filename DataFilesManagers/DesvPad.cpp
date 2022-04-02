@@ -1,3 +1,5 @@
+// Code for evaluation of Standard Deviation of a Data array
+
 #include <fstream>
 #include <iostream>
 #include <math.h>
