@@ -2,6 +2,7 @@
     "cSpell.enabled": false,
     "files.associations": {
         "*.cpp": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "combinedFit.C": "cpp"
     }
 }
